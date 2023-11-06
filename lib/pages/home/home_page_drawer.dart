@@ -1,7 +1,7 @@
-import 'package:example/utils/extensions/context_extension.dart';
-import 'package:example/utils/extensions/int_extension.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_pokeapi/flutter_pokeapi.dart';
+import 'package:pokeapi_wrapper/pokeapi_wrapper.dart';
+import 'package:pokedexter/utils/extensions/context_extension.dart';
+import 'package:pokedexter/utils/extensions/int_extension.dart';
 
 import '../../utils/assets/assets.dart';
 import '../../utils/messages/messages.dart';
@@ -17,7 +17,7 @@ class HomePageDrawer extends StatelessWidget {
         children: [
           DrawerHeader(
             decoration: BoxDecoration(color: context.primaryColor),
-            child: Center(child: Image.asset(Assets.pokeApiDemo, fit: BoxFit.cover)),
+            child: Center(child: Image.asset(Assets.pokeDexterLogo, fit: BoxFit.cover)),
           ),
           const HomePageDrawerItemClearCache(),
         ],

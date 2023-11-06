@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_pokeapi/flutter_pokeapi.dart';
+import 'package:pokeapi_wrapper/pokeapi_wrapper.dart';
 
 import '../pokemon_widget.dart';
 import 'pokemon_card_error.dart';

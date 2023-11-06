@@ -1,13 +1,13 @@
-import 'package:example/pages/pokemon_info/pokemon_info_page.dart';
-import 'package:example/utils/extensions/context_extension.dart';
-import 'package:example/widgets/poketype_chip/poketype_chip.dart';
 import 'package:flutter/material.dart';
+import 'package:pokedexter/utils/extensions/context_extension.dart';
 
 import '../../utils/assets/assets.dart';
 import '../../utils/values/poke_type_values.dart';
 import '../../widgets/favorite_button.dart/favorites_button.dart';
 import '../../widgets/pokemon_list_widget.dart';
+import '../../widgets/poketype_chip/poketype_chip.dart';
 import '../favorites/favorites_page.dart';
+import '../pokemon_info/pokemon_info_page.dart';
 import 'home_page_drawer.dart';
 
 class HomePage extends StatefulWidget {
@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage> {
           actions: [
             FavoritesButton(onPressed: () => FavoritesPage.navigateTo(context)),
           ],
-          title: Center(child: SizedBox(height: 50, child: Image.asset(Assets.pokeApiDemo, fit: BoxFit.cover))),
+          title: Center(child: SizedBox(height: 50, child: Image.asset(Assets.pokeDexterLogo, fit: BoxFit.cover))),
           bottom: PreferredSize(
             preferredSize: const Size.fromHeight(50),
             child: TextField(

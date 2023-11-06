@@ -1,6 +1,6 @@
-import 'package:example/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_pokeapi/flutter_pokeapi.dart';
+import 'package:pokeapi_wrapper/pokeapi_wrapper.dart';
+import 'package:pokedexter/utils/extensions/context_extension.dart';
 
 class LabelValueWidget extends StatelessWidget {
   final String label;

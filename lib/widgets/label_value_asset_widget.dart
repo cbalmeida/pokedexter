@@ -1,6 +1,6 @@
-import 'package:example/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:pokedexter/utils/extensions/context_extension.dart';
 
 class LabelValueAssetWidget extends StatelessWidget {
   final String label;

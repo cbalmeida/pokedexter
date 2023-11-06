@@ -1,4 +1,4 @@
-import 'package:flutter_pokeapi/flutter_pokeapi.dart';
+import 'package:pokeapi_wrapper/pokeapi_wrapper.dart';
 
 abstract class PokemonWidget extends FutureBuilderWidget<Pokemon> {
   final PokemonApiResource apiResource;

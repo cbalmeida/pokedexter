@@ -12,5 +12,5 @@ class Assets {
 
 //IMAGES
   static String pokeball = "$_imagesPath/pokeball.svg";
-  static String pokeApiDemo = "$_imagesPath/pokeapi_demo.png";
+  static String pokeDexterLogo = "$_imagesPath/pokedexter_logo.png";
 }

@@ -1,6 +1,6 @@
-import 'package:example/providers/favorites_provider.dart';
 import 'package:flutter/material.dart';
 
+import '../../providers/favorites_provider.dart';
 import '../../utils/icons/poke_icons.dart';
 
 class FavoritesButton extends StatelessWidget {

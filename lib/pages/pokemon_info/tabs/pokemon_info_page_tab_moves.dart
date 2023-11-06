@@ -1,10 +1,10 @@
-import 'package:example/pages/pokemon_info/pokemon_info_page_tab.dart';
-import 'package:example/utils/extensions/context_extension.dart';
-import 'package:example/utils/extensions/string_extension.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_pokeapi/flutter_pokeapi.dart';
+import 'package:pokeapi_wrapper/pokeapi_wrapper.dart';
+import 'package:pokedexter/utils/extensions/context_extension.dart';
+import 'package:pokedexter/utils/extensions/string_extension.dart';
 
 import '../../../utils/values/poke_type_values.dart';
+import '../pokemon_info_page_tab.dart';
 
 class PokemonInfoPageTabMoves extends PokemonInfoPageTab {
   final List<PokeType> pokeTypes;
@@ -35,7 +35,7 @@ class _PokemonInfoPageTabMovesState extends State<PokemonInfoPageTabMoves> {
         itemCount: pokemon.moves.length,
         shrinkWrap: true,
         itemBuilder: (BuildContext context, int index) {
-          PokemonMove pokemonMove = pokemon.moves![index];
+          PokemonMove pokemonMove = pokemon.moves[index];
           return _MoveCard(pokemonMove: pokemonMove);
         },
       ),

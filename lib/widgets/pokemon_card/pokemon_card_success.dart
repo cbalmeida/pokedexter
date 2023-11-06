@@ -1,9 +1,9 @@
-import 'package:example/providers/favorites_provider.dart';
-import 'package:example/utils/extensions/pokeapi_extension.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_pokeapi/flutter_pokeapi.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:pokeapi_wrapper/pokeapi_wrapper.dart';
+import 'package:pokedexter/utils/extensions/pokeapi_extension.dart';
 
+import '../../providers/favorites_provider.dart';
 import '../../utils/assets/assets.dart';
 import '../../utils/values/poke_type_values.dart';
 import '../favorite_button.dart/favorite_button.dart';
@@ -61,14 +61,8 @@ class _PokemonCardSuccessState extends State<PokemonCardSuccess> {
         padding: const EdgeInsets.symmetric(horizontal: 1, vertical: 0.5),
         child: Container(
           decoration: BoxDecoration(
-            //color: backGroundColor,
             gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [mainPokeType?.color ?? Colors.white, mainPokeType?.colorCard ?? Colors.white]),
             borderRadius: BorderRadius.circular(0),
-            //border: Border.all(width: 1, color: Colors.white, strokeAlign: BorderSide.strokeAlignCenter),
-            //boxShadow: const [
-            //  BoxShadow(color: Color.fromRGBO(0, 0, 0, 0.1), blurRadius: 6, spreadRadius: -1, offset: Offset(0, 4)),
-            //  BoxShadow(color: Color.fromRGBO(0, 0, 0, 0.06), blurRadius: 4, spreadRadius: -1, offset: Offset(0, 2)),
-            //],
           ),
           child: Stack(
             children: [

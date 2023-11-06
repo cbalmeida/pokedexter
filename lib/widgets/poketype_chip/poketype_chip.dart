@@ -1,5 +1,5 @@
-import 'package:example/utils/extensions/string_extension.dart';
 import 'package:flutter/material.dart';
+import 'package:pokedexter/utils/extensions/string_extension.dart';
 
 import '../../utils/values/poke_type_values.dart';
 

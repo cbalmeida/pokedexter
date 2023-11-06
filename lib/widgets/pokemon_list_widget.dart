@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import 'package:example/utils/extensions/pokeapi_extension.dart';
-import 'package:example/widgets/pokemon_card/pokemon_card.dart';
-import 'package:example/widgets/pokemon_card/pokemon_card_success.dart';
-import 'package:example/widgets/pokemon_card/pokemon_card_waiting.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_pokeapi/flutter_pokeapi.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:pokeapi_wrapper/pokeapi_wrapper.dart';
+import 'package:pokedexter/utils/extensions/pokeapi_extension.dart';
+import 'package:pokedexter/widgets/pokemon_card/pokemon_card.dart';
+import 'package:pokedexter/widgets/pokemon_card/pokemon_card_success.dart';
+import 'package:pokedexter/widgets/pokemon_card/pokemon_card_waiting.dart';
 
 import '../utils/values/poke_type_values.dart';
 

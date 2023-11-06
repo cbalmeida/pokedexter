@@ -1,10 +1,10 @@
-import 'package:example/widgets/poketype_chip/poketype_chip_list.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_pokeapi/flutter_pokeapi.dart';
+import 'package:pokeapi_wrapper/pokeapi_wrapper.dart';
 
 import '../../utils/values/poke_type_values.dart';
 import '../../widgets/favorite_button.dart/favorite_button.dart';
 import '../../widgets/pokemon_image_widget.dart';
+import '../../widgets/poketype_chip/poketype_chip_list.dart';
 
 class PokemonInfoPageHeader extends StatelessWidget {
   final Pokemon pokemon;

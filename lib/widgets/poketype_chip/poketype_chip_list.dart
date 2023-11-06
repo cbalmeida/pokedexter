@@ -1,6 +1,6 @@
-import 'package:example/widgets/poketype_chip/poketype_chip.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_pokeapi/flutter_pokeapi.dart';
+import 'package:pokeapi_wrapper/pokeapi_wrapper.dart';
+import 'package:pokedexter/widgets/poketype_chip/poketype_chip.dart';
 
 import '../../utils/values/poke_type_values.dart';
 

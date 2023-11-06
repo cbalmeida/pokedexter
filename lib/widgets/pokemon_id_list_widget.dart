@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_pokeapi/flutter_pokeapi.dart';
+import 'package:pokeapi_wrapper/pokeapi_wrapper.dart';
 
 abstract class PokemonIdListWidget extends FutureBuilderWidget<List<int>> {
   Widget onBuildPokemon(BuildContext context, int pokemonId);

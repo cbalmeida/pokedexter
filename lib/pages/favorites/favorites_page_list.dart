@@ -1,8 +1,8 @@
-import 'package:example/providers/favorites_provider.dart';
-import 'package:example/widgets/pokemon_card/pokemon_card.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_pokeapi/flutter_pokeapi.dart';
+import 'package:pokeapi_wrapper/pokeapi_wrapper.dart';
 
+import '../../providers/favorites_provider.dart';
+import '../../widgets/pokemon_card/pokemon_card.dart';
 import '../../widgets/pokemon_id_list_widget.dart';
 import '../pokemon_info/pokemon_info_page.dart';
 

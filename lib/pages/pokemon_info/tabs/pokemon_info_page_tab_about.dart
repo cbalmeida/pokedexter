@@ -1,12 +1,12 @@
-import 'package:example/pages/pokemon_info/pokemon_info_page_tab.dart';
-import 'package:example/utils/extensions/int_extension.dart';
-import 'package:example/utils/extensions/pokeapi_extension.dart';
-import 'package:example/utils/extensions/string_extension.dart';
-import 'package:example/widgets/label_value_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_pokeapi/flutter_pokeapi.dart';
+import 'package:pokeapi_wrapper/pokeapi_wrapper.dart';
+import 'package:pokedexter/utils/extensions/int_extension.dart';
+import 'package:pokedexter/utils/extensions/pokeapi_extension.dart';
+import 'package:pokedexter/utils/extensions/string_extension.dart';
 
 import '../../../utils/values/poke_type_values.dart';
+import '../../../widgets/label_value_widget.dart';
+import '../pokemon_info_page_tab.dart';
 
 class PokemonInfoPageTabAbout extends PokemonInfoPageTab {
   final List<PokeType> pokeTypes;

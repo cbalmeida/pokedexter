@@ -1,5 +1,5 @@
-import 'package:example/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
+import 'package:pokedexter/utils/extensions/context_extension.dart';
 
 class LabelValueProgressWidget extends StatelessWidget {
   final String label;

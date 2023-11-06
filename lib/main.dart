@@ -1,6 +1,6 @@
-import 'package:example/pages/home/home_page.dart';
-import 'package:example/utils/extensions/theme_extension.dart';
 import 'package:flutter/material.dart';
+import 'package:pokedexter/pages/home/home_page.dart';
+import 'package:pokedexter/utils/extensions/theme_extension.dart';
 
 void main() {
   runApp(const MyApp());

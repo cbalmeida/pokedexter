@@ -1,10 +1,10 @@
-import 'package:example/pages/pokemon_info/pokemon_info_page_tab.dart';
-import 'package:example/pages/pokemon_info/tabs/pokemon_info_page_tab_about.dart';
-import 'package:example/pages/pokemon_info/tabs/pokemon_info_page_tab_evolution.dart';
-import 'package:example/pages/pokemon_info/tabs/pokemon_info_page_tab_moves.dart';
-import 'package:example/pages/pokemon_info/tabs/pokemon_info_page_tab_stats.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_pokeapi/flutter_pokeapi.dart';
+import 'package:pokeapi_wrapper/pokeapi_wrapper.dart';
+import 'package:pokedexter/pages/pokemon_info/pokemon_info_page_tab.dart';
+import 'package:pokedexter/pages/pokemon_info/tabs/pokemon_info_page_tab_about.dart';
+import 'package:pokedexter/pages/pokemon_info/tabs/pokemon_info_page_tab_evolution.dart';
+import 'package:pokedexter/pages/pokemon_info/tabs/pokemon_info_page_tab_moves.dart';
+import 'package:pokedexter/pages/pokemon_info/tabs/pokemon_info_page_tab_stats.dart';
 
 import '../../utils/values/poke_type_values.dart';
 

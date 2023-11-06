@@ -1,8 +1,8 @@
-import 'package:example/utils/extensions/context_extension.dart';
-import 'package:example/utils/extensions/int_extension.dart';
-import 'package:example/utils/extensions/string_extension.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_pokeapi/flutter_pokeapi.dart';
+import 'package:pokeapi_wrapper/pokeapi_wrapper.dart';
+import 'package:pokedexter/utils/extensions/context_extension.dart';
+import 'package:pokedexter/utils/extensions/int_extension.dart';
+import 'package:pokedexter/utils/extensions/string_extension.dart';
 
 class PokemonNameWidget extends StatelessWidget {
   final Pokemon pokemon;

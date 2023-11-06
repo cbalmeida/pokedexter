@@ -1,14 +1,14 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:example/pages/pokemon_info/pokemon_info_page_tab.dart';
-import 'package:example/utils/extensions/context_extension.dart';
-import 'package:example/utils/extensions/int_extension.dart';
-import 'package:example/utils/extensions/pokeapi_extension.dart';
-import 'package:example/utils/extensions/string_extension.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_pokeapi/flutter_pokeapi.dart';
+import 'package:pokeapi_wrapper/pokeapi_wrapper.dart';
+import 'package:pokedexter/utils/extensions/context_extension.dart';
+import 'package:pokedexter/utils/extensions/int_extension.dart';
+import 'package:pokedexter/utils/extensions/pokeapi_extension.dart';
+import 'package:pokedexter/utils/extensions/string_extension.dart';
 
 import '../../../utils/values/poke_type_values.dart';
 import '../../../widgets/favorite_button.dart/favorite_button.dart';
+import '../pokemon_info_page_tab.dart';
 
 class PokemonInfoPageTabEvolution extends PokemonInfoPageTab {
   final List<PokeType> pokeTypes;
